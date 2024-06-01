@@ -72,10 +72,18 @@ button {
 
 @media only screen and (min-width: 600px) 
 {
+    *{
+        font-size: 16px;
+    }
+    body {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+    }
     main {
         display: flex;
         width: fit-content;
-        margin: 6rem auto;
+        margin: auto auto;
     }
 
     article {
